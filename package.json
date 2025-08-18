@@ -5,24 +5,29 @@
   "description": "Railway Control HMI System",
   "private": true,
 
-  "main": "build/electron.js",
+  "homepage": "./",
+  "main": "electron.js",
 
   "scripts": {
-    "start": "react-scripts start",
-    "build:web": "react-scripts build",
-    "start:electron": "concurrently -k -r \"cross-env BROWSER=none npm run start\" \"wait-on http://localhost:3000 && electron .\"",
-    "dist:win": "npm run build:web && electron-builder --win",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "react-scripts start",
+  "build:web": "react-scripts build",
+  "build:electron": "npm run build:web && cp electron.js build/",
+  "start:electron": "concurrently -k -r \"cross-env BROWSER=none npm run start\" \"wait-on http://localhost:3000 && electron .\"",
+  "dist:win": "npm run build:electron && electron-builder --win",
+  "dist:mac": "npm run build:electron && electron-builder --mac",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+  } ,
 
   "build": {
     "appId": "com.prayank.trainsignalhmi",
     "productName": "TrainSignalSim",
     "files": [
       "build/**/*",
+      "electron.js",
       "package.json"
     ],
+    "extends": null, 
     "win": {
       "target": ["nsis"],
       "icon": "assets/icon.ico"

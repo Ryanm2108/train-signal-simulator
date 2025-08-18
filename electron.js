@@ -1,20 +1,23 @@
-// electron.js
-const { app, BrowserWindow } = require('electron');
-const path = require('path');
+const { app, BrowserWindow } = require("electron");
+const path = require("path");
+const isDev = process.env.ELECTRON_START_URL;
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 1280,
+    width: 1200,
     height: 800,
-    webPreferences: { nodeIntegration: false, contextIsolation: true }
+    webPreferences: {
+      nodeIntegration: true,
+    },
   });
 
-  const indexPath = path.join(__dirname, 'index.html');
-  win.loadURL(`file://${indexPath}`);
-
-  if (!app.isPackaged) win.webContents.openDevTools();
+  if (isDev) {
+    // Development: load React dev server
+    win.loadURL("http://localhost:3000");
+  } else {
+    // Production: load the built React files
+    win.loadFile(path.join(__dirname, "build", "index.html"));
+  }
 }
 
-app.whenReady().then(createWindow);
-app.on('window-all-closed', () => { if (process.platform !== 'darwin') app.quit(); });
-app.on('activate', () => { if (BrowserWindow.getAllWindows().length === 0) createWindow(); });
+app.on("ready", createWindow);
