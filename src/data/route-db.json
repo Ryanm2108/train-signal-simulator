@@ -1,0 +1,369 @@
+{
+  "S1-01A": {
+    "releaseGroups": [
+      [
+        "1XT",
+        "202BXT"
+      ],
+      [
+        "203BXT",
+        "203AXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "S1-01B": {
+    "releaseGroups": [
+      [
+        "1XT",
+        "202BXT"
+      ],
+      [
+        "203BXT",
+        "203AXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "C1-01A": {
+    "releaseGroups": [
+      [
+        "1XT",
+        "202BXT"
+      ],
+      [
+        "203BXT",
+        "203AXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "S1-02AA": {
+    "releaseGroups": [
+      [
+        "1XT",
+        "202BXT"
+      ],
+      [
+        "203BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "C1-02AA": {
+    "releaseGroups": [
+      [
+        "1XT",
+        "202BXT"
+      ],
+      [
+        "203BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "S2-DZ": {
+    "releaseGroups": [
+      [
+        "2XT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "S4-DX": {
+    "releaseGroups": [
+      [
+        "202AXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "S39-02BA": {
+    "releaseGroups": [
+      [
+        "247XT"
+      ],
+      [
+        "249AXT",
+        "249BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "S41-02BA": {
+    "releaseGroups": [
+      [
+        "249BXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "S42-03BA": {
+    "releaseGroups": [
+      [
+        "242BXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "S44-03BA": {
+    "releaseGroups": [
+      [
+        "242AXT",
+        "242BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "S97-UX": {
+    "releaseGroups": [
+      [
+        "298AXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "S98-04A": {
+    "releaseGroups": [
+      [
+        "98XT",
+        "298BXT"
+      ],
+      [
+        "296BXT",
+        "296AXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "S98-04B": {
+    "releaseGroups": [
+      [
+        "98XT",
+        "298BXT"
+      ],
+      [
+        "296BXT",
+        "296AXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "C98-04A": {
+    "releaseGroups": [
+      [
+        "98XT",
+        "298BXT"
+      ],
+      [
+        "296BXT",
+        "296AXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "S98-03AA": {
+    "releaseGroups": [
+      [
+        "98XT",
+        "298BXT"
+      ],
+      [
+        "296BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "C98-03AA": {
+    "releaseGroups": [
+      [
+        "98XT",
+        "298BXT"
+      ],
+      [
+        "296BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "S99-UZ": {
+    "releaseGroups": [
+      [
+        "99XT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH104-UW": {
+    "releaseGroups": [
+      [
+        "202AXT",
+        "202BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH123-01A": {
+    "releaseGroups": [
+      [
+        "203AXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "SH124-SE1": {
+    "releaseGroups": [
+      [
+        "203AXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "SH124-UW": {
+    "releaseGroups": [
+      [
+        "203AXT",
+        "203BXT"
+      ],
+      [
+        "202BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH131-02BA": {
+    "releaseGroups": [
+      [
+        "247XT"
+      ],
+      [
+        "249AXT",
+        "249BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH139-02BA": {
+    "releaseGroups": [
+      [
+        "247XT"
+      ],
+      [
+        "249AXT",
+        "249BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH140-02AA": {
+    "releaseGroups": [
+      [
+        "249BXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "SH140-01A": {
+    "releaseGroups": [
+      [
+        "249BXT",
+        "249AXT"
+      ],
+      [
+        "247XT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH140-SM1": {
+    "releaseGroups": [
+      [
+        "249BXT",
+        "249AXT"
+      ],
+      [
+        "247XT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH141-02BA": {
+    "releaseGroups": [
+      [
+        "249BXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "SH142-03BA": {
+    "releaseGroups": [
+      [
+        "242BXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "SH143-03AA": {
+    "releaseGroups": [
+      [
+        "242BXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "SH143-04A": {
+    "releaseGroups": [
+      [
+        "242BXT",
+        "242AXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH144-03BA": {
+    "releaseGroups": [
+      [
+        "242AXT",
+        "242BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH193-SW2": {
+    "releaseGroups": [
+      [
+        "296AXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "SH193-DW": {
+    "releaseGroups": [
+      [
+        "296AXT",
+        "296BXT"
+      ],
+      [
+        "298BXT"
+      ]
+    ],
+    "timedRelease": null
+  },
+  "SH196-04A": {
+    "releaseGroups": [
+      [
+        "296AXT"
+      ]
+    ],
+    "timedRelease": 120
+  },
+  "SH197-DW": {
+    "releaseGroups": [
+      [
+        "298AXT",
+        "298BXT"
+      ]
+    ],
+    "timedRelease": null
+  }
+}
